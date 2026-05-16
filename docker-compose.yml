@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  recon113:
+    build: .
+    container_name: recon113
+    volumes:
+      - ./recon113_output:/app/recon113_output
+    network_mode: host
+    stdin_open: true
+    tty: true
+    # Usage: docker compose run recon113 -t example.com
