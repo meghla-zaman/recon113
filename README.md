@@ -51,7 +51,7 @@
 ### Step 1: Clone & Setup
 
 ```bash
-git clone https://github.com/your-username/recon113.git
+git clone https://github.com/meghla-zaman/recon113.git
 cd recon113
 chmod +x setup.sh && ./setup.sh
 ```
@@ -75,7 +75,7 @@ firefox recon113_output/*/report.html
 <summary>📋 Manual Setup (if setup.sh doesn't work)</summary>
 
 ```bash
-git clone https://github.com/your-username/recon113.git
+git clone https://github.com/meghla-zaman/recon113.git
 cd recon113
 
 # Create virtual environment (required on Kali Linux)
